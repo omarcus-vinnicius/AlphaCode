@@ -1,0 +1,11 @@
+.container-table{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    border-left: solid 3px rgba(204, 204, 204, 0.644);
+    border-right: solid 3px rgba(204, 204, 204, 0.644);
+    box-shadow: 2px 2px 5px;
+    overflow: auto;
+}
+
+
