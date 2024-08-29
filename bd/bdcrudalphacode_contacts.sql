@@ -42,7 +42,7 @@ CREATE TABLE `contacts` (
   UNIQUE KEY `mail` (`mail`),
   UNIQUE KEY `phone` (`phone`),
   UNIQUE KEY `phone_2` (`phone`)
-) ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,7 +51,6 @@ CREATE TABLE `contacts` (
 
 LOCK TABLES `contacts` WRITE;
 /*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
-INSERT INTO `contacts` VALUES (41,'marcus','2002-09-13','marcus@gmail.com','dev','11932715817','1132715817',1,1,1,'2024-08-27 03:00:00','2024-08-28 22:19:49',0),(42,'marcus','2002-09-13','marcus@gamil.com','dev','1932518474','',1,1,1,'2024-08-27 03:00:00','2024-08-28 22:21:05',0),(43,'marcus','2002-09-13','viffni@gmail.com','dev','1293271851','1132715817',0,0,0,'2024-08-27 03:00:00','2024-08-28 19:20:34',1),(46,'marcus','2002-09-13','vini@gmail.com','dev','1132718517','11932715817',1,1,1,'2024-08-27 03:00:00','2024-08-28 21:35:13',1),(48,'marcus','2002-09-13','vinissa@gmail.com','dev','1132749517','11832115817',1,1,1,'2024-08-28 18:13:09','2024-08-28 21:35:13',1),(50,'Marcus Vinnicius Rodrigues de Souza','2024-08-15','marcusvinniciusoussza@gmail.com','dev','(11) 9371-5817','(11) 1111-11111',0,0,0,'2024-08-28 19:37:02','2024-08-28 20:54:31',1),(51,'flavio silva','2024-01-15','falviosilva@gmail.com','CIO','(11) 9856-7487','(11) 9325-4866',1,0,1,'2024-08-28 21:00:37','2024-08-28 22:20:42',1),(52,'lucio','2023-01-10','lucio@gmail.com','adm','(15) 6456-1654','(15) 6156-1566',1,0,0,'2024-08-28 22:21:44',NULL,1);
 /*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -64,4 +63,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-08-28 19:23:18
+-- Dump completed on 2024-08-28 21:38:57
