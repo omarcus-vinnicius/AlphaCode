@@ -32,3 +32,8 @@ Após concluir a instalação e configuração conforme descrito acima, siga os 
 Abra um navegador da web e visite o seguinte URL para acessar a view de contatos:
 
 http://localhost:3000/views/app.html
+
+ou
+
+### Acesse a pagina web:
+Acesse a aplicação web <a href="https://alpha-code.vercel.app/">clicando aqui!</a>
