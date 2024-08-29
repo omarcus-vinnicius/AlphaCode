@@ -69,5 +69,12 @@ footer{
         height: 100%;
         flex-direction: column;
     }
-    
+
+    footer{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: clamp(0.5rem, 1vw, 1rem);
+    }
+
 }

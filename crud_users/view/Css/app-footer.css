@@ -3,7 +3,8 @@
     width: 100vw;
     height: 100%;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 40px;
+    
 }
 
 .footbar .card-text{
@@ -12,6 +13,7 @@
     height: 20px;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .card-img{

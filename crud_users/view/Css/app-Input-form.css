@@ -61,7 +61,7 @@ input[type="date"] {
 /* checbox */
 .modal-checkbox-campo{
     display: grid;
-    width: 50%;
+    width: 60%;
     height: 30%;
     flex-wrap: wrap;
     grid-template-columns: 2fr 2fr ;
@@ -74,7 +74,7 @@ input[type="date"] {
     height: 30px;
     gap: 5px;
     flex-wrap: nowrap;
-    font-size: clamp(1.3rem, 2.5vw, 1rem);
+    font-size: clamp(1rem, 2.5vw, 1rem);
 }
 
 .input_checkbox label{
@@ -116,4 +116,21 @@ input[type="date"] {
     transition: 2ms;
     transform: scale(1.1);
     cursor: pointer;
+}
+
+
+
+
+
+
+@media (max-width: 1370px) {
+
+    .modal-checkbox-campo {
+        display: grid;
+        width: 100;
+        height: 20%;
+        flex-wrap: wrap;
+
+    }
+
 }
