@@ -10,17 +10,15 @@
 }
 
 .logo_title h2{
-    display: flex;
-    width: auto;
+   display: flex;
+   width: auto;
    font-size: clamp(1rem, 2.5vw, 2rem) ;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    word-spacing: 5px;
-   
-   
 }
 
 .logo_title img{
- display: flex;
+  display: flex;
   width: 100px;
   height: 100px;
    

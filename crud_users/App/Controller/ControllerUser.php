@@ -42,7 +42,7 @@ final class ControllerUser
         if ($newuser['send_sms_permission'] == FALSE || $newuser['send_sms_permission'] == 'FALSE') {
             $newuser['send_sms_permission'] = 0;
         }
-
+        
         $resBD = $resUsers->createUsers($newuser);
         
         if($resBD === true){
@@ -86,7 +86,6 @@ final class ControllerUser
         if ($userupdate['send_sms_permission'] == FALSE || $userupdate['send_sms_permission'] == 'FALSE') {
             $userupdate['send_sms_permission'] = 0;
         }
-
 
         $resUsers = new ModelUser();
         $resBD = $resUsers->updateUsers($id,$userupdate);

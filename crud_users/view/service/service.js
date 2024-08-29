@@ -11,15 +11,12 @@ const ReadCustomers = async () => {
 }
 
 const ReadCustomersID = async (id) => {
-
     const reponse = await fetch(`${url}/${id}`);
     return await reponse.json();
 
 }
 
-
 const CreatCustomer = async (customer) => {
-    console.log(customer);
     const option = {
         method: 'POST',
         body: JSON.stringify(customer),
@@ -39,7 +36,6 @@ const CreatCustomer = async (customer) => {
     }
 
 }
-
 
 const DeleteCustomer = async (id) => {
 
